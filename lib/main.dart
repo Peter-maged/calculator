@@ -83,7 +83,7 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
     return Container(
       height: MediaQuery.of(context).size.height * 0.1 * buttonHeight,
       color: buttonColor,
-      child: ElevatedButton(
+      child: TextButton(
         style: ElevatedButton.styleFrom(
           shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(0.0),
